@@ -371,6 +371,11 @@ e {
 
 /*=============== SKILLS ===============*/
 
+.skills__area {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .skills__content{
   row-gap: 4.5rem;
 }
@@ -387,9 +392,10 @@ e {
   column-gap: 3rem;
 }
 
+
 .skills__group{
   display: grid;
-  align-content: flex-start;
+  /*align-content: flex-start;*/
   row-gap: 1rem;
 }
 
